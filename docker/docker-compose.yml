@@ -23,7 +23,7 @@ services:
     #   - SHELL=/bin/bash
     working_dir: /home/frappe
     volumes:
-      - ../:/workspace
+      - ../:/bennie
     ports:
       - 8000:8000
     tty: true
