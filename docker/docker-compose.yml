@@ -26,6 +26,7 @@ services:
       - ./:/workspace
     ports:
       - 8000:8000
+    tty: true
 
 volumes:
   mariadb-data:
